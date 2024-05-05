@@ -1,0 +1,45 @@
+#s-display-text {
+  text-align: center;
+  font-size: 128px;
+  font-weight: bold;
+  
+  background: #00CFB4;
+  background: linear-gradient(to right, #00CFB4 46%, #04CF04 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;    
+  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 95%;
+  height: 35%;
+  left: 5px;
+}
+
+#s-display-text-shadow {  
+  text-shadow: 1px 1px 8px black;
+    
+  text-align: center;
+  font-size: 128px;
+  font-weight: bold;
+  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 95%;
+  height: 35%;
+  left: 5px;
+}
+
+#s-display-text-background {
+  margin-top: 24px;
+  /*
+  
+  background-image: url("../assets/big-text-background.jpg");
+  max-width: 100%;
+  height: auto;
+  
+  */
+}
